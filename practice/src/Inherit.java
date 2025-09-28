@@ -2,6 +2,7 @@
 class Animal {
     protected String name;
 
+    // コンストラクタ
     public Animal(String name) {
         this.name = name;
     }
@@ -18,6 +19,7 @@ class Animal {
 // 派生クラス（子クラス）
 class Dog extends Animal {
     public Dog(String name) {
+        // 親クラスのコンストラクタを呼び出す
         super(name);
     }
 
@@ -35,6 +37,7 @@ class Dog extends Animal {
 // 別の派生クラス
 class Cat extends Animal {
     public Cat(String name) {
+        // 親クラスのコンストラクタを呼び出す
         super(name);
     }
 
